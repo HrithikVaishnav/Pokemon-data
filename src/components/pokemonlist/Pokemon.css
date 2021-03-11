@@ -40,6 +40,11 @@
     }
     .container-item > button{
         width: 80%;
+        font-size: 4vw;
+    }
+
+    .container-item > p{
+        font-size: 4vw;
     }
 }
 
@@ -49,5 +54,11 @@
     }
     .container-item > button{
         width: 60%;
+        font-size: 3vw;
+    }
+
+    .container-item > p{
+        font-size: 3vw;
+
     }
 }
