@@ -1,3 +1,7 @@
+# A Pokemon React App 
+
+ Fetching data from a Pokemon APi [link](https://pokeapi.co/). You can find the demo link [here](https://pokemon-data.vercel.app/).
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
