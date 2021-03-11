@@ -1,0 +1,53 @@
+.container-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+    border: 1px solid black;
+    box-shadow: 0 0 1px 1px white inset, 0 0 0 0 white;
+}
+.container-item > p{
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+}
+.container-item > button{
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 30%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 1.8vw;
+    border-color: #020e16;
+    color: #fff;
+    background-color: rgb(65, 82, 94);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+.container-item > button:hover{
+    color: rgb(236, 240, 232);
+    background-color: rgb(37, 25, 16);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container-item{
+        width:90%
+    }
+    .container-item > button{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width:600px) {
+    .container-item{
+        width: 70%;
+    }
+    .container-item > button{
+        width: 60%;
+    }
+}

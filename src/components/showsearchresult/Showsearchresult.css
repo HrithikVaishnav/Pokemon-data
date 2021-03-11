@@ -1,0 +1,89 @@
+.divdata{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+}
+.divdata > h1{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    font-size: 2vw;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.poke-item{
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 2, 10, 0.2);
+    transition: 0.3s;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.poke-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.poke-item img{
+    margin: auto;
+    height: 9vw;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(134, 119, 119, 0.2);
+}
+.poke-item div{
+    margin: auto;
+    color: rgb(168, 165, 164);
+    padding: 10px;
+}
+.poke-item p{
+    margin: auto;
+    padding: 10px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.back-btn{
+    margin: 20px;
+    padding: 10px;
+    font-size: large;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+.back-btn:hover{
+    color: black;
+    box-shadow: 0 0 4px 0 #3498db inset, 0 0 4px 2px #3498db;
+}
+@media only screen and (max-width: 800px) and (min-width:600px) {
+    .item{
+        font-size: 2.5vw;
+    }
+    .poke-item img{
+        height: 10vw;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .item{
+        font-size: 3vw;
+    }
+    .poke-item img{
+        height: 12vw;
+    }
+}

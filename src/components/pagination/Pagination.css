@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;   
+}
+.container > button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 2vw;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+.container > button:hover{
+    color: black;
+    box-shadow: 0 0 6px 0 #3498db inset, 0 0 6px 2px #3498db;
+}
+
+@media only screen and (max-width: 800px) and (min-width:600px) {
+    .container > button{
+        width: 30%;
+        font-size: 3vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container > button{
+        width: 40%;
+        font-size: 4vw;
+    }
+}
